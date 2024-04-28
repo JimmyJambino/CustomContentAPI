@@ -7,3 +7,5 @@ Goal with this project is to create a CMS API.
 Features planned:
 * User creation and authentication.
 * Custom collections of entities and custom fields.
+
+Node.js version 18.16.0
