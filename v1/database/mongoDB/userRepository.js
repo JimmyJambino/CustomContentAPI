@@ -42,6 +42,14 @@ class UserRepositoryClass {
             throw error
         }
     }
+
+    async getByEmail(email) {
+        try {
+            return await User.findOne({email})
+        } catch (error) {
+            throw error
+        }
+    }
 }
 
 export const UserRepository = new UserRepositoryClass()
